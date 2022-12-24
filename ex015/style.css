@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    background-color: #0B5ED7;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main{
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    text-align: left;
+    margin-bottom: 8px;
+}
+#txtn{
+    margin-bottom: 5px;
+    width: 49.4%;
+}
+footer {
+    font-style: italic;
+}
