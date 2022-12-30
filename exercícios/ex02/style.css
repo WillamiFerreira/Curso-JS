@@ -1,6 +1,7 @@
 body{
     display: flex;
-    background-color: rgb(33, 188, 254);
+    height: 100vh;
+    background-color: #2066d1;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -10,11 +11,23 @@ header{
     color: white;
     text-align: center;
 }
+#ano_nasc{
+    width: 60%;
+}
+#resposta{
+    align-items: center;
+    row-gap: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+h1{
+    margin: 0px;
+}
 section{
     background-color: white;
     border-radius: 10px;
     width: 400px;
-    margin: auto;
+    margin: 10px 0px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.324);
 }
 footer{
